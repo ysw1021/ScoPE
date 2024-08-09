@@ -4,7 +4,7 @@ This repository is the official implementation of Controlled Text Generation for
 
 https://arxiv.org/abs/2311.07430
 
-In this version, only controllability for Amazon-camera review corpus is available. Other corpus controllabaility will be available soon!
+In this version, only setting for Amazon-camera review corpus is available. Other settings will be available soon!
 
 ## Requirements
 python == 3.8 (observed error about importing fairseq in python version >= 3.10)
