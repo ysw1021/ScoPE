@@ -1,7 +1,13 @@
 # [ACL 2024 Main] Controlled Text Generation for Black-box Language Models via Score-based Progressive Editor
 
+This repository is the official implementation of Controlled Text Generation for Black-box Language Models via Score-based Progressive Editor, published as a main paper at ACL 2024.
+
+https://arxiv.org/abs/2311.07430
+
+In this version, only controllability for Amazon-camera review corpus is available. Other corpus controllabaility will be available soon!
+
 ## Requirements
-python == 3.8
+python == 3.8 (observed error about importing fairseq in python version >= 3.10)
 
 openai
 
@@ -9,7 +15,12 @@ transformers
 
 torch
 
-mauve
+mauve-text
+
+## Download Links
+you can download raw data of Amazon camera review corpus, roberta-base model, ScoPE checkpoint file at below link:
+
+[Download_link](https://drive.google.com/drive/folders/1JNbESAlh3ZtK_0DgyGXHsb2YmZm8LS6O?usp=sharing)
 
 ## Install fairseq custom version
 ```
