@@ -74,3 +74,16 @@ cp gpt2_bpe/dict.txt checkpoints/scope_camera_review_gpt2xl /dict.txt
 ```
 CUDA_VISIBLE_DEVICES=0 python generate_scope_openai_completion.py
 ```
+
+## Citation
+If you find this work useful, or you utilize it in your research, please cite the following paper:
+```
+@misc{yu2023ScoPE,
+    title={Controlled Text Generation for Black-box Language Models via Score-based Progressive Editor},
+    author={Sangwon Yu and Changmin Lee and Hojin Lee and Sungroh Yoon},
+    year={2023},
+    eprint={2311.07430},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
