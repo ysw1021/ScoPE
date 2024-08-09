@@ -6,7 +6,7 @@ https://arxiv.org/abs/2311.07430
 
 In this version, only setting for Amazon-camera review corpus is available. Other settings will be available soon!
 
-Our code is based on [Fairseq](https://github.com/facebookresearch/fairseq)
+Our code is based on [Fairseq](https://github.com/facebookresearch/fairseq).
 
 ## Requirements
 python == 3.8 (observed error about importing fairseq in python version >= 3.10)
