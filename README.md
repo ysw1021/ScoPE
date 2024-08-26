@@ -80,12 +80,22 @@ CUDA_VISIBLE_DEVICES=0 python generate_scope_openai_completion.py
 ## Citation
 If you find this work useful, or you utilize it in your research, please cite the following paper:
 ```
-@misc{yu2023ScoPE,
-    title={Controlled Text Generation for Black-box Language Models via Score-based Progressive Editor},
-    author={Sangwon Yu and Changmin Lee and Hojin Lee and Sungroh Yoon},
-    year={2023},
-    eprint={2311.07430},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@inproceedings{yu-etal-2024-controlled,
+    title = "Controlled Text Generation for Black-box Language Models via Score-based Progressive Editor",
+    author = "Yu, Sangwon  and
+      Lee, Changmin  and
+      Lee, Hojin  and
+      Yoon, Sungroh",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.acl-long.767",
+    pages = "14215--14237",
+    abstract = "Controlled text generation, aiming to ensure that language models produce text containing only the desired domain or corpus attributes, is immensely crucial in the practical application of language models. Existing methods, however, are inapplicable to black-box models or suffer a significant trade-off between control and fluency in text generation. This paper introduces the Score-based Progressive Editor (ScoPE), a novel approach designed to overcome these issues. ScoPE modifies the context at the token level during the generation process of a backbone language model. This modification guides the subsequent text to naturally include the target attributes. To facilitate this process, ScoPE employs a training objective that maximizes a target score, comprehensively considering both control and fluency. Experimental results on diverse controlled generation tasks demonstrate that ScoPE can effectively regulate the attributes of the generated text while effectively utilizing the capability of the backbone large language models.",
 }
 ```
