@@ -8,6 +8,8 @@ In this version, only setting for Amazon-camera review corpus is available. Othe
 
 Our code is based on [Fairseq](https://github.com/facebookresearch/fairseq).
 
+Our implementation of the loss function for ScoPE training can be found at **fairseq_custom/fairseq/criterions/scope_loss.py**
+
 ## Requirements
 python == 3.8 (observed error about importing fairseq in python version >= 3.10)
 
